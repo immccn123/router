@@ -10,13 +10,11 @@
 
 <!--/email_off-->
 
-<!-- TODO: translation -->
+这将把 Vue Router 暴露在全局的 `VueRouter` 对象上，例如 `VueRouter.createRouter(...)`。
 
-This will expose Vue Router via a global `VueRouter` object, e.g. `VueRouter.createRouter(...)`.
+## 包管理器
 
-## Package managers
-
-If you have an existing project that uses a JavaScript package manager, you can install Vue Router from the npm registry:
+如果您有一个使用 JavaScript 包管理器的现有项目，你可以从 npm registry 中安装 Vue Router：
 
 ::: code-group
 
@@ -34,7 +32,7 @@ pnpm add vue-router@4
 
 :::
 
-If you're starting a new project, you might find it easier to use the [create-vue](https://github.com/vuejs/create-vue) scaffolding tool, which creates a Vite-based project with the option to include Vue Router:
+如果你要开始一个新项目，你可能会发现使用 [create-vue](https://github.com/vuejs/create-vue) 脚手架工具更容易，它可以创建一个基于 Vite 的项目，并提供了在项目中包含 Vue Router 的选项：
 
 ::: code-group
 
@@ -52,6 +50,6 @@ pnpm create vue
 
 :::
 
-You'll be prompted with some questions about the kind of project you want to create. If you choose to install Vue Router, the example application will also demonstrate some of Vue Router's core features.
+你会被问到关于你想创建的项目类型的一些问题。如果你选择安装 Vue Router，示例应用还将演示一些 Vue Router 的核心功能。
 
-Projects using package managers will typically use ES modules to access Vue Router, e.g. `import { createRouter } from 'vue-router'`.
+使用包管理器的项目通常会使用 ES 模块来访问 Vue Router，例如 `import { createRouter } from 'vue-router'`。
